@@ -20,7 +20,7 @@ let mailOptions = {
   text: 'оно работает',
 };
 
-app.get('/', (req, res) => {
+app.get('/test', (req, res) => {
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log('here');
