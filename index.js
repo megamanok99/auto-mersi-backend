@@ -29,8 +29,11 @@ app.get('/test', (req, res) => {
     console.log('Сообщение отправлено: %s', info.messageId);
   });
 });
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
 
-app.listen(4444, (err) => {
+app.listen(4445, (err) => {
   if (err) {
     return console.log(err);
   } else {
