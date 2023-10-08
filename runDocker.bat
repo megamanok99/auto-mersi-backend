@@ -1,1 +1,1 @@
-docker run -p 4444:4445 Kommunalka:latest
+docker run -p 4445:4445 Kommunalka:latest

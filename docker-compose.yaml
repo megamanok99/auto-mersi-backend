@@ -6,4 +6,4 @@ services:
     image: node-sender:latest
     container_name: node-sender
     ports:
-      - '4444:4444'
+      - '4445:4445'
